@@ -35,6 +35,7 @@ function reduceToAnyTrue(sourceArray,startingPoint=null){
     if(curr){
       return true;
     }
+    return false;
   },startingPoint);
 }
 
