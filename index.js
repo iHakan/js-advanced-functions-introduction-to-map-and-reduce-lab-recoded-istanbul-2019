@@ -33,7 +33,7 @@ function reduceToAllTrue(sourceArray,startingPoint=true){
 function reduceToAnyTrue(sourceArray,startingPoint=null){
   return  sourceArray.reduce(function(total, curr){
     if(curr){
-      return 
+      return true;
     }
   },startingPoint);
 }
